@@ -1,0 +1,35 @@
+{
+  "name": "caregrid-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "db:init": "node src/config/initDb.js"
+  },
+  "keywords": [
+    "caregrid",
+    "healthcare",
+    "express",
+    "postgresql",
+    "swagger",
+    "neon"
+  ],
+  "author": "CareGrid Team",
+  "license": "ISC",
+  "description": "CareGrid Healthcare Management System Backend API with Neon PostgreSQL and Swagger UI",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.12.1",
+    "pg": "^8.23.1",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
