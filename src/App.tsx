@@ -1,0 +1,14 @@
+import { RouterProvider } from 'react-router-dom'
+import { Toaster } from '@/components/ui/sonner'
+import { router } from '@/routes/router'
+
+export function App() {
+  return (
+    <>
+      <RouterProvider router={router} />
+      <Toaster position="top-right" richColors closeButton />
+    </>
+  )
+}
+
+export default App
